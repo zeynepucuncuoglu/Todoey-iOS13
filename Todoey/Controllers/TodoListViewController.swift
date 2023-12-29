@@ -79,7 +79,7 @@ class TodoListViewController: UITableViewController {
     //MARK: - MODEL Manupulation Methods
     
     func saveItems(){
-        
+        print("saved")
         do{
            try context.save()
         } catch {
